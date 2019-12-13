@@ -12,7 +12,10 @@ chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't wa
 # Tracker
 analytics: UA-83979019-1
 
-
+# Markdown
+markdown: kramdown
+kramdown:
+  header_offset: 2
 
 # Sass/SCSS
 sass:
@@ -32,3 +35,7 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+# Content
+collections:
+  - projects
