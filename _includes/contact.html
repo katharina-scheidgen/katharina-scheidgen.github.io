@@ -67,5 +67,11 @@
     </li>
     {% endif %}
 
+    {% if sidebar.researchgate %} 
+    <li class="researchgate"><i class="fab fa-researchgate"></i>
+      <a href="https://www.researchgate.com/user/show/{{ sidebar.researchgate }}" target="_blank">{{ sidebar.researchgate }}</a>
+    </li>
+    {% endif %}
+
   </ul>
 </div><!--//contact-container-->

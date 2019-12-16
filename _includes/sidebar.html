@@ -1,34 +1,36 @@
 {% assign sidebar = site.data.data.sidebar %}
-<div class="sidebar-wrapper">
+<aside class="sidebar">
+  <div class="sidebar-wrapper">
 
-  <div class="profile-container">
+    <div class="profile-container">
 
-    {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      {% if sidebar.name %}
+      <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+      {% endif %}
+
+      {% if sidebar.name %}
+      <h3 class="name">{{ sidebar.name }}</h3>
+      {% endif %}
+
+      {% if sidebar.tagline %}
+      <p class="tagline">{{ sidebar.tagline }}</p>
+      {% endif %}
+
+    </div><!--//profile-container-->
+
+    {% include contact.html %}
+
+    {% if sidebar.education %}
+      {% include education.html %}
     {% endif %}
 
-    {% if sidebar.name %}
-    <h3 class="name">{{ sidebar.name }}</h3>
+    {% if sidebar.language %}
+      {% include language.html %}
     {% endif %}
 
-    {% if sidebar.tagline %}
-    <p class="tagline">{{ sidebar.tagline }}</p>
+    {% if sidebar.about %}
+      {% include about.html %}
     {% endif %}
 
-  </div><!--//profile-container-->
-
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% if sidebar.language %}
-    {% include language.html %}
-  {% endif %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
+  </div><!--//sidebar-wrapper-->
+</aside>

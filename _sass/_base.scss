@@ -1,4 +1,8 @@
-$content-width: 600px;
+/* Green variables */
+$theme-color: #4D6E12;
+$text-color: #000;
+
+$content-width: 600px; 
 $sidebar-width: 320px;
 
 $spacing_rhythmUnit: 1.5rem;
@@ -90,10 +94,11 @@ body {
 small, .text_small {font-size: 0.833em;}
 
 a {
-    color: darken($theme-color, 15%);
+    color: $theme-color;
     text-decoration: none;
     &:hover {
-        color: darken($theme-color, 30%);
+        color: lighten($theme-color, 15%);
+        text-decoration: underline;
     }    
 }
 
@@ -121,18 +126,29 @@ ul:not(.list-unstyled) {
 
 .wrapper {
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    order: 2;
+    width: $sidebar-width;
 }
 
 .sidebar-wrapper {
-    font-family: Helvetica Neue, sans-serif; 
     position: fixed;
-    left: 0;
     top: 0;
-    bottom: 0;
+    font-family: Helvetica Neue, sans-serif;
     width: $sidebar-width;
+    margin-top: 3rem;
 
     a {
-        color: #000
+        color: #000        
+    }
+
+    a:hover {
+        color: $theme-color;
+        text-decoration: none;
     }
 
     .profile-container {
@@ -182,14 +198,13 @@ ul:not(.list-unstyled) {
 }
 
 .main-wrapper {
-    padding: ($spacing_rhythmUnit * 2);
+    padding: 1.5rem;
     padding-top: $spacing_rhythmUnit;
-    margin-left: $sidebar-width;
     max-width: $content-width;
 
     .metadata {
         margin-top: (-0.75rem);
-        color: darken($theme-color, 15%);
+        color: $theme-color;
         font-family: Helvetica Neue, sans-serif; 
         .type {
             font-weight: $typography_bold;
@@ -209,7 +224,7 @@ ul:not(.list-unstyled) {
 
     .section-title {
         text-transform: uppercase;        
-        color: darken($theme-color, 15%);
+        color: $theme-color;
         
         font-size: 1.125rem;
         line-height: 1.5rem;
@@ -260,12 +275,6 @@ ul:not(.list-unstyled) {
     padding-top: 30px;
     .copyright {
         line-height: 1.6;
-        color: $text-color-secondary;
         font-size: 13px;
     }
-
-    .fa-heart {
-        color: $heart;
-    }
-
 }
