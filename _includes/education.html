@@ -15,15 +15,16 @@
     </div><!--//item-->
     {% endfor %}
 
-  </div><!--//education-container-->
+  </div><!--//education-container--> 
   {% else %}
   <section class="section educations-section">
 
     <h2 class="section-title">
-      <span class="fa-stack fa-xs">
+      <!-- <span class="fa-stack fa-xs">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-      </span>
+      </span> -->
+      <i class="fas fa-graduation-cap"></i>
       Education
     </h2>
 
@@ -31,13 +32,11 @@
     <div class="item">
 
       <div class="meta">
-
-        <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
-          <div class="time">{{ graduation.time }}</div>
+        <h3 class="degree">{{ graduation.degree }}</h3>
+        <div class="upper-row"> 
+          <div class="university">{{ graduation.university }}</div>
+          <div class="time">{{ graduation.time }}</div>         
         </div><!--//upper-row-->
-
-        <div class="university">{{ graduation.university }}</div>
       </div><!--//meta-->
 
       {% if graduation.details %}

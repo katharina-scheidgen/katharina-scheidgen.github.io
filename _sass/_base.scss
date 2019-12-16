@@ -1,47 +1,89 @@
-$content-width: 900px;
+$content-width: 600px;
 $sidebar-width: 320px;
 
-$spacing_rhythmUnit: 1.778rem;
-$spacing_rhythmScale: 1.5;
-$typography_fontSize: 18px;
+$spacing_rhythmUnit: 1.5rem;
+$typography_fontSize: 16px;
 $typography_bold: 700;
 
 html {
     font-size: $typography_fontSize;
-    // background-image: linear-gradient(#f0f 1px, transparent 1px);
-    // background-size: auto 1.778em;
+    // Demonstrate the vertical rhythm at 12px
+    // background-image: linear-gradient(#eee 1px, transparent 1px);
+    // background-size: 100% 12px; 
 }
 
 body {
-    font-family: 'Helvetica', sans-serif;
-    line-height: $spacing_rhythmUnit;
+    line-height: 1.5rem;  
+    padding: 0;
     margin: 0;
-    color: $text-color;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
-
-p {margin-bottom: 1.25em;}
-
-h1, h2, h3, h4, h5 {
-  margin: 2.75rem 0 1rem;
-  font-weight: 400;
-  line-height: 1.15;
-  color: $text-color-secondary;
-}
-
+  
+/* Aligns to 72px */
 h1 {
-  margin-top: 0;
-  font-size: 2.488em;
+    font-size: 2.25rem;
+    line-height: 1.16666666666;
+    margin-bottom: 30px; 
 }
 
-h2 {font-size: 2.074em;}
+/* Aligns to 72px */
+h2 {
+    font-size: 1.875rem;
+    line-height: 1.2;
+    padding-top: 1.5rem;
+    margin-bottom: 0.75rem; 
+}
 
-h3 {font-size: 1.728em;}
+/* Aligns to 48px */
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    padding-top: 0.75rem;
+margin-bottom: 0.375rem; 
+}
 
-h4 {font-size: 1.44em;}
+/* Aligns to 36px */
+h4 {
+    font-size: 1,3125rem;
+    line-height: 1.3333333;
+    padding-top: 0.75rem;
+    margin-bottom: 0.5rem; 
+}
 
-h5 {font-size: 1.2em;}
+/* Aligns to 36px */
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-top: 0.75rem;
+    margin-bottom: 0,5625rem; 
+}
+
+/* Aligns to 36px */
+h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 0,5625rem;
+    margin-bottom: 0,1875rem; 
+}
+
+p {
+    margin-bottom: 0.75rem; 
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p {
+    margin-top: 0; 
+}
+
+// Misc set up stuff
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: Helvetica Neue, sans-serif; 
+}
+
+body {
+    font-family: Georgia, serif; 
+}
 
 small, .text_small {font-size: 0.833em;}
 
@@ -60,7 +102,19 @@ a {
 
 ol, ul {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
+    padding-left:0; 
+    list-style-position:inside; 
+}
+
+ul:not(.list-unstyled) {
+    list-style-type: none;
+
+    li:before {
+        font-size: 1rem;
+        content: '\025B8';
+        margin-right: 8px;
+    }    
 }
 
 .wrapper {
@@ -68,6 +122,7 @@ ol, ul {
 }
 
 .sidebar-wrapper {
+    font-family: Helvetica Neue, sans-serif; 
     background: $theme-color;
     position: fixed;
     left: 0;
@@ -132,12 +187,12 @@ ol, ul {
         font-size: 1rem;
         font-weight: 700;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 15px; 
     }
     .degree {
-        font-size: 0.875rem;
-        margin-top: 0;
-        margin-bottom: 5px;
+        // font-size: 0.875rem;
+        // margin-top: 0;
+        // margin-bottom: 5px;
     }
     .education-container {
         .item {
@@ -192,8 +247,9 @@ ol, ul {
     max-width: $content-width;
 
     .metadata {
-        margin-top: (-1rem);
-        color: $theme-color;
+        margin-top: (-0.75rem);
+        color: darken($theme-color, 15%);
+        font-family: Helvetica Neue, sans-serif; 
         .type {
             font-weight: $typography_bold;
         }
@@ -202,95 +258,62 @@ ol, ul {
         }
     }
 
-    .content {
-
+    .abstract {
+        font-style: italic;
+        p:before {
+            content: 'abstract\002014';
+            font-weight: $typography_bold;
+        }
     }
 
     .section-title {
         text-transform: uppercase;        
         color: darken($theme-color, 15%);
-        font-size: 1.2em;
-    }
-    .section {
-        margin-bottom: 60px;
-    }
+        
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        padding: 0;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        // display: none; 
 
-    .experiences-section, .educations-section {
-        .item {
-            margin-bottom: 30px;
+        .fas {
+            margin-right: 12px;
         }
     }
+
+    .section {
+        margin-bottom: 3rem;
+    }
+
     .upper-row {
         position: relative;
         overflow: hidden;
-        margin-bottom: 2px;
-    }
-    .job-title, .degree {
-        color: $theme-color;
-        font-size: 1rem;
-        margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
+        margin-bottom: 0.125rem;
+        font-family: Helveitica Neue, sans-serif; 
     }
     .time {
-        font-size: 1rem;
-        margin-top: 0;
-        margin-bottom: 0;
-        line-height: 1.15;
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-color-secondary;
     }
     .company, .university {
-        margin-bottom: 10px;
-        color: $text-color-secondary;
+        margin-bottom: 0.625rem;
     }
 
-    .publication-title {
-        font-size: 1rem;
-        font-weight: 400;
-        color: $text-color;
-        margin-bottom: 1px;
-    }
-    .publication-authors {
-        font-style: italic;
-        color: $text-color-secondary;
-        margin-bottom: 1px;
-    }
     .publications-section {
-        .intro {
-            margin-bottom: 30px;
+        li {
+            margin-bottom: 0.75rem;
         }
-        .item {
-            margin-bottom: 15px;
+        .publication-title {
+            font-size: 1rem;
+            font-weight: $typography_bold;
+        }
+        .publication-authors {
+            font-style: italic;
         }
     }
 }
-
-
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 0.875rem;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: $smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten($theme-color, 15%);
-    }
-}
-
-
-
 
 .footer {
     padding-top: 30px;

@@ -1,18 +1,24 @@
 <section class="section">
-  <h1 class="section-title">
-    <span class="fa-stack fa-xs">
+  <h3 class="section-title">
+    <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
-    </span>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>      
+    </span> -->
+    <i class="fas fa-archive"></i>
     Recent Projects
-  </h1>
+  </h3>
 
   {% for project in site.projects %}
     <h2>{{ project.title }}</h2>
     <p class="metadata">
       <span class="type">{{ project.type }}</span>{% if project.date %}, <span class="date">{{ project.date | date: '%B %Y' }}</span>{% endif %}
     </p>
-    <p class="content">{{ project.content  | markdownify }}</p>
+    {% if project.abstract %}
+      <div class="abstract">
+        {{ project.abstract | markdownify }}
+      </div>
+    {% endif %}
+    <p class="content">{{ project.content | markdownify }}</p>
   {% endfor %}
 
 </section>
