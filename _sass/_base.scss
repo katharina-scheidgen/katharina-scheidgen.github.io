@@ -4,9 +4,11 @@ $sidebar-width: 320px;
 $spacing_rhythmUnit: 1.5rem;
 $typography_fontSize: 16px;
 $typography_bold: 700;
+$typography_normal: 400;
 
 html {
     font-size: $typography_fontSize;
+    font-weight: $typography_normal;
     // Demonstrate the vertical rhythm at 12px
     // background-image: linear-gradient(#eee 1px, transparent 1px);
     // background-size: 100% 12px; 
@@ -123,36 +125,23 @@ ul:not(.list-unstyled) {
 
 .sidebar-wrapper {
     font-family: Helvetica Neue, sans-serif; 
-    background: $theme-color;
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
     width: $sidebar-width;
-    color: #fff;
+
     a {
-        color: #fff;
+        color: #000
     }
+
     .profile-container {
-        padding: 30px;
-        //background: darken($theme-color, 10%);
-        background: rgba(0, 0, 0, 0.2);
+        padding: 1.5rem;
         text-align: center;
-        color: #fff;
     }
-    .name {
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin-top: 0;
-        margin-bottom: 10px;
-        color: #fff;
-    }
-    .tagline {
-        color: rgba(256, 256, 256, 0.6);
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0;
+    
+    .tagline {  
+        font-weight: $typography_normal;  
     }
     .profile {
         margin-bottom: 15px;
@@ -160,8 +149,10 @@ ul:not(.list-unstyled) {
 
     .avatar {
         //used for profile image
-        width: 150px;
-        margin-bottom: 15px;
+        margin: auto;
+        display: block;
+        width: 12rem;
+        height: 12rem;
         border: 0px solid #fff;
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -172,15 +163,14 @@ ul:not(.list-unstyled) {
             vertical-align: middle;
         }
         li {
-            margin-bottom: 15px;
+            margin-bottom: 0.75rem;
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
     .container-block {
-        font-size: 1rem;
-        padding: 30px;
+        padding: 1.5rem;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -188,55 +178,6 @@ ul:not(.list-unstyled) {
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 15px; 
-    }
-    .degree {
-        // font-size: 0.875rem;
-        // margin-top: 0;
-        // margin-bottom: 5px;
-    }
-    .education-container {
-        .item {
-            margin-bottom: 15px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-        .meta {
-            color: rgba(256, 256, 256, 0.6);
-            font-weight: 500;
-            margin-bottom: 0px;
-            margin-top: 0;
-        }
-        .time {
-            color: rgba(256, 256, 256, 0.6);
-            font-weight: 500;
-            margin-bottom: 0px;
-        }
-    }
-    .languages-container {
-        .lang-desc {
-            color: rgba(256, 256, 256, 0.6);
-        }
-    }
-
-    .languages-list {
-        margin-bottom: 0;
-        li {
-            margin-bottom: 10px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-    }
-
-    .interests-list {
-        margin-bottom: 0;
-        li {
-            margin-bottom: 10px;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
     }
 }
 
