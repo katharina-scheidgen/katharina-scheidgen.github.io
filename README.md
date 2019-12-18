@@ -1,3 +1,3 @@
 # My Homepage
 
-Jekyll-based gh-pages site.
+Personal homepage. Jekyll-based gh-pages site.
