@@ -37,11 +37,40 @@
     .main-wrapper .upper-row {
         margin-bottom: 0;
     }
+
+    #menu {
+        display: none;
+
+        li {
+            display: block;
+        }
+    }
+
+    .show-menu {
+        display: block;
+    }
+
+    .nav-bar {
+        display: block;
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-
+    #menu {
+        display: block;
+        li {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 0.75rem;
+            }
+            &:first-child {
+                margin-left: -8px;
+            }
+        }
+    }
+    .show-menu {
+        display: none;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */

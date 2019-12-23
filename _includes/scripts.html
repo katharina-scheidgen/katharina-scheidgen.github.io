@@ -1,11 +1,17 @@
 <!-- Javascript -->
 <script>
+  // hide the responsive menu on click
+  function hideMenu() {
+    document.getElementById('show-menu').checked = false;
+  }
+
+  // adopt padding arround images to fit vertical rhythm
   window.onload = function() {
     for (var i = 0; i < document.images.length; i++) {
-      image = document.images[i]
+      image = document.images[i];
       if (!image.classList.contains("avatar")) {
         if (image.height % 12 !== 0) {
-          image.setAttribute("style", "padding-bottom: " + (12 - image.height % 12) + "px; display: block;")
+          image.setAttribute("style", "padding-bottom: " + (12 - image.height % 12) + "px; display: block;");
         }       
       }
     }

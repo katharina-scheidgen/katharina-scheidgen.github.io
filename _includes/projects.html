@@ -9,6 +9,9 @@
   </h3>
 
   {% for project in site.projects %}
+    {% if project.menu %}
+      <a class="anchor" name="{{ project.menu }}"></a>
+    {% endif %}
     <h2>{{ project.title }}</h2>
     <p class="metadata">
       <span class="type">{{ project.type }}</span>{% if project.date %}, <span class="date">{{ project.date | date: '%B %Y' }}</span>{% endif %}
