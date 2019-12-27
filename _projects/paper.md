@@ -1,6 +1,6 @@
 ---
 title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs
-type: Accepted Paper
+type: Accepted Paper, Entrepreneurship and Regional Development
 date: November 2019
 menu: EE
 
