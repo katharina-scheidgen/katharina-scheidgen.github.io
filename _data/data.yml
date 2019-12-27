@@ -16,12 +16,12 @@ sidebar:
     email: kathi.scheidgen@gmail.com 
     phone: 
     website: katharina-scheidgen.de #do not add http://
-    linkedin: tlinkedin
-    researchgate: tresearch
+    linkedin: Katharina Scheidgen
+    researchgate: Katharina Scheidgen
     github:
     gitlab:
     bitbucket:
-    twitter: '@ttwitter'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,88 +36,63 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: PhD candidate, Sociology of Organization, Innovation, and Entrepreneurship
+      university: Technische Universität Berlin
+      time: 2015 - 2019
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        My PhD research was positioned at the intersection of sociology, organizational theory and entrepreneurship. 
+        It adressed the research strands on interorganizational tie formation of innovative new ventures, 
+        entrepreneurial ecosystems, and entrepreneurial team formation.
+          - Submission of PhD thesis: December 2019
+    - degree: BA and MA in Sociology and Technology Studies
+      university: Technische Universität Berlin
+      time: 2007 - 2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        During my bachelor's and master's degree, I focussed on the sociology of organizations, innovation studies and science and technology studies.
+
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      
+    
+    monographs:
+      - title: Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation. 
+        link: "#"
+        authors: Katharina Scheidgen
+        conference: PhD thesis
+        
     papers:
-      - title: The Art of Computer Programming
+      - title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs.
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Katharina Scheidgen
+        conference: Entrepreneurship and Regional Development (accepted for publication)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Social Contexts in Team Formation: Why Do Independent Start-ups and Univesity Spin-offs Form Teams Differently?
+        link: "https://www.researchgate.net/publication/337591748_Social_Contexts_in_Team_Formation_Why_Do_Independent_Start-Ups_and_University_Spin-Offs_Form_Teams_Differently"
+        authors: Katharina Scheidgen
+        conference: Historical Social Research, 44 (4), 2019
 
-      - title: A syntax directed compiler for Algol 60
+      - title: Gründen als Modus des Innovierens: Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess.
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Katharina Scheidgen
+        conference: In: Hergesell, Jannis; Maibaum, Arne; Minnetian, Clelia; Sept, Aria- ne: Innovationsphänomene. Modi und E ekte der Innovationsgesellschaft. Springer, Wiesbaden.
+
+working papers:
+      - title: Local Cultures of Tie Formation: The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts. 
+        link: "#"
+        authors: Philip Roth, Katharina Scheidgen
+        conference: 
+
+      - title: Towards an Integrated Theory of Entrepreneurial Ecosystems: Systematizing Previous Research by Introducing the Concept of Fields.
+        link: "#"
+        authors: Michaela Hruskova, Katharina Scheidgen
+        conference: 
+        
+  - title: The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin.
+        link: "#"
+        authors: Katharina Scheidgen
+        conference: 
 
 footer: >
     2019 Katharina Scheidgen All Rights Reserved
