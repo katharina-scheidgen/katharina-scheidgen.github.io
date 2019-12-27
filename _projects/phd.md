@@ -1,24 +1,11 @@
 ---
-title: Comparing Entreperneurial Ecosystems, Berlin and Sillicon Valley
-type: PhD
-date: Dec 2012
+title: Interorganizational Tie Formation of Innovative Growth Companies in Silicon Valley and Berlin
+type: PhD monograph
+date: Dec 2019
 menu: PhD
-abstract:
-    At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est **Lorem** ipsum dolor **sit** amet.
+
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita *kasd gubergren*, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est **Lorem** ipsum dolor **sit** amet. 
+In my PhD monograph, I compared interorganizational tie formation of innovative start-ups and university spin-offs in Silicon Valley and Berlin. To address the important research gap on in-terorganizational tie formation under conditions of high uncertainty and power asymmetry, I conducted 85 interviews with entrepreneurs and other relevant entrepreneurial actors and ob-served 26 entrepreneurship events in Silicon Valley and Berlin. Especially during the early founding stages, new ventures rely heavily on varying resources from their environment, but at the same time, they face great challenges to acquire them. Taking a structurationist perspective, I argued that entrepreneurial ecosystems do not only provide resources, but also scripts about how to acquire these resources. By comparing tie formation scripts and practices in Silicon Valley and Berlin, I showed how these entrepreneurial ecosystems impact interorganizational tie formation.  
 
-# Sub-section
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-
-![trajectories](/assets/images/phd.png) 
-
-Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-
-- This is one
-- Another bullet
-
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto [odio dignissim](http://link.de) qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
 
