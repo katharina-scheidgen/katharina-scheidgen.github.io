@@ -19,8 +19,11 @@
       {% endfor %}
       <li><a href="#profile">Career Profile</a></li> 
       <li><a href="#education">Education</a></li>
-      <li><a href="#experiences">Experience</a></li>
+      {% if site.data.data.experiences %}
+        <li><a href="#experiences">Experience</a></li>
+      {% endif %}
       <li><a href="#publications">Publications</a></li>
+      <li><a href="#conferences">Conferences</a></li>
     </ul>
   </nav>
   <div class="wrapper">

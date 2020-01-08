@@ -8,7 +8,7 @@
     Recent Projects
   </h3>
 
-  {% for project in site.projects %}
+  {% for project in site.projects | sort: "title" %}
     {% if project.menu %}
       <a class="anchor" name="{{ project.menu }}"></a>
     {% endif %}

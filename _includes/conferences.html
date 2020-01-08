@@ -1,0 +1,31 @@
+{% assign conferences = site.data.data.conferences %}
+{% if conferences %}
+<section class="section publications-section">
+  <a class="anchor" name="conferences"></a>
+  <h2 class="section-title">
+    <i class="fas fa-file-alt"></i>
+    Conferences
+  </h2>
+
+  {% for category in conferences %}    
+    <h3>{{ category[0] }}</h3>
+    <ul class="list-unstyled">
+      {% for conference in category[1] %}
+        <li>
+          {% if conference.organizers %} 
+            <span class="conference-organizers">{{ conference.organizers }}:</span>
+          {% endif %}
+          {% if conference.link %}
+            <a href="{{ conference.link }}">{{ conference.title }}</a>;
+          {% else %}
+            <span>{{ conference.title }};</span>
+          {% endif %}    
+          <span class="conference-description">{{ conference.description }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  
+
+</section><!--//section-->
+{% endif %}

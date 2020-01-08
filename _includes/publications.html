@@ -3,33 +3,26 @@
 <section class="section publications-section">
   <a class="anchor" name="publications"></a>
   <h2 class="section-title">
-    <!-- <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span> -->
     <i class="fas fa-file-alt"></i>
-    {{ publications.title }}
+    Publications
   </h2>
 
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
-
-  <ol>
-    {% for publication in publications.papers %}
-      <li>
-        <span class="publication-authors">{{ publication.authors }}:</span>
-        {% if publication.link %}
-          <a href="{{ publication.link }}">{{ publication.title }}</a>;
-        {% else %}
-          <span>{{ publication.title }};</span>
-        {% endif %}    
-        <span class="publication-conference">{{ publication.conference }}</span>
-      </li>
-    {% endfor %}
-  </ol><!--//item-->
+  {% for category in publications %}    
+    <h3>{{ category[0] }}</h3>
+    <ul class="list-unstyled">
+      {% for publication in category[1] %}
+        <li>
+          <span class="publication-authors">{{ publication.authors }}:</span>
+          {% if publication.link %}
+            <a href="{{ publication.link }}">{{ publication.title }}</a>;
+          {% else %}
+            <span>{{ publication.title }};</span>
+          {% endif %}    
+          <span class="publication-conference">{{ publication.conference }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
   
 
 </section><!--//section-->

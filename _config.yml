@@ -37,4 +37,5 @@ safe: false
 
 # Content
 collections:
-  - projects
+  projects:
+    sort_by: order_key

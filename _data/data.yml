@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
@@ -16,8 +15,8 @@ sidebar:
     email: kathi.scheidgen@gmail.com 
     phone: 
     website: katharina-scheidgen.de #do not add http://
-    linkedin: Katharina Scheidgen
-    researchgate: Katharina Scheidgen
+    linkedin: katharina-scheidgen-b17a73a9
+    researchgate: Katharina_Scheidgen
     github:
     gitlab:
     bitbucket:
@@ -52,47 +51,50 @@ education:
 
 
 publications:
-    title: Publications
-    intro: |
+  monographs:
+    - title: Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation. 
+      link: "#"
+      authors: Katharina Scheidgen
+      conference: PhD thesis
       
-    
-    monographs:
-      - title: Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation. 
-        link: "#"
-        authors: Katharina Scheidgen
-        conference: PhD thesis
-        
-    papers:
-      - title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs.
-        link: "#"
-        authors: Katharina Scheidgen
-        conference: Entrepreneurship and Regional Development (accepted for publication)
+  papers:
+    - title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs.
+      link:
+      authors: Katharina Scheidgen
+      conference: Entrepreneurship and Regional Development (accepted for publication)
 
-      - title: Social Contexts in Team Formation: Why Do Independent Start-ups and Univesity Spin-offs Form Teams Differently?
-        link: "https://www.researchgate.net/publication/337591748_Social_Contexts_in_Team_Formation_Why_Do_Independent_Start-Ups_and_University_Spin-Offs_Form_Teams_Differently"
-        authors: Katharina Scheidgen
-        conference: Historical Social Research, 44 (4), 2019
+    - title: "Social Contexts in Team Formation: Why Do Independent Start-ups and University Spin-offs Form Teams Differently?"
+      link: "https://www.researchgate.net/publication/337591748_Social_Contexts_in_Team_Formation_Why_Do_Independent_Start-Ups_and_University_Spin-Offs_Form_Teams_Differently"
+      authors: Katharina Scheidgen
+      conference: Historical Social Research, 44 (4), 2019
 
-      - title: Gründen als Modus des Innovierens: Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess.
-        link: "#"
-        authors: Katharina Scheidgen
-        conference: In: Hergesell, Jannis; Maibaum, Arne; Minnetian, Clelia; Sept, Aria- ne: Innovationsphänomene. Modi und E ekte der Innovationsgesellschaft. Springer, Wiesbaden.
+    - title: Gründen als Modus des Innovierens. Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess.
+      link:
+      authors: Katharina Scheidgen
+      conference: In Hergesell, Jannis; Maibaum, Arne; Minnetian, Clelia; Sept, Ariane; Innovationsphänomene. Modi und Effekte der Innovationsgesellschaft. Springer, Wiesbaden.
 
-    working papers:
-      - title: Local Cultures of Tie Formation: The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts. 
-        link: "#"
-        authors: Philip Roth, Katharina Scheidgen
-        conference: 
+  working papers:
+    - title: Local Cultures of Tie Formation. The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts. 
+      link: "#"
+      authors: Philip Roth, Katharina Scheidgen
+      conference: 
 
-      - title: Towards an Integrated Theory of Entrepreneurial Ecosystems: Systematizing Previous Research by Introducing the Concept of Fields.
-        link: "#"
-        authors: Michaela Hruskova, Katharina Scheidgen
-        conference: 
-        
-  - title: The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin.
-        link: "#"
-        authors: Katharina Scheidgen
-        conference: 
+    - title: Towards an Integrated Theory of Entrepreneurial Ecosystems. Systematizing Previous Research by Introducing the Concept of Fields.
+      link: "#"
+      authors: Michaela Hruskova, Katharina Scheidgen
+      conference: 
+      
+    - title: The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin.
+      link: "#"
+      authors: Katharina Scheidgen
+      conference: 
+
+conferences:
+  self organized:    
+    - title: A nice get-to-gether
+      organizers: Me, myself, and Irene 
+      link: "#"
+      description: "On a calm summer evening ..."  
 
 footer: >
     2019 Katharina Scheidgen All Rights Reserved
