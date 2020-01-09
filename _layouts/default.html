@@ -6,6 +6,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 {% include head.html %}
+{% assign career-profile = site.data.data.career-profile %}
 
 <body>
   <nav class="nav-bar">
@@ -17,13 +18,15 @@
           <li><a href="#{{ project.menu }}">{{ project.menu }}</a></li>
         {% endif %}
       {% endfor %}
-      <li><a href="#profile">Career Profile</a></li> 
+      {% if career-profile %}
+        <li><a href="#profile">{{ career-profile.title }}</a></li> 
+      {% endif %}
       <li><a href="#education">Education</a></li>
       {% if site.data.data.experiences %}
         <li><a href="#experiences">Experience</a></li>
       {% endif %}
       <li><a href="#publications">Publications</a></li>
-      <li><a href="#conferences">Conferences</a></li>
+      <li><a href="#conferences">Conferences/Workshops</a></li>
     </ul>
   </nav>
   <div class="wrapper">

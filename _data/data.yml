@@ -26,14 +26,11 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
 career-profile:
-    title: Career Profile
+    title: Research Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      My research takes a sociological perspective on entrepreneurship and innovation. It is located at the intersection of entrepreneurship, 
+      organizational theory, and sociology. My past work primarily addressed the tie formation of innovative new ventures and the discourse 
+      on entrepreneurial ecosystems. My current research builds a bridge between research on entrepreneurial teams and networks in entrepreneurship.
 education:
     - degree: PhD candidate, Sociology of Organization, Innovation, and Entrepreneurship
       university: Technische Universität Berlin
@@ -58,8 +55,7 @@ publications:
       conference: PhD thesis
       
   papers:
-    - title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs.
-      link:
+    - title: Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs
       authors: Katharina Scheidgen
       conference: Entrepreneurship and Regional Development (accepted for publication)
 
@@ -68,33 +64,39 @@ publications:
       authors: Katharina Scheidgen
       conference: Historical Social Research, 44 (4), 2019
 
-    - title: Gründen als Modus des Innovierens. Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess.
-      link:
+    - title: Gründen als Modus des Innovierens. Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess
       authors: Katharina Scheidgen
-      conference: In Hergesell, Jannis; Maibaum, Arne; Minnetian, Clelia; Sept, Ariane; Innovationsphänomene. Modi und Effekte der Innovationsgesellschaft. Springer, Wiesbaden.
+      conference: "Jannis Hergesell, Arne Maibaum, Celia Minnetian, Ariane Sept (editors): Innovationsphänomene, Modi und Effekte der Innovationsgesellschaft; Springer, Wiesbaden."
 
   working papers:
-    - title: Local Cultures of Tie Formation. The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts. 
-      link: "#"
+    - title: Local Cultures of Tie Formation. The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts
       authors: Philip Roth, Katharina Scheidgen
-      conference: 
 
-    - title: Towards an Integrated Theory of Entrepreneurial Ecosystems. Systematizing Previous Research by Introducing the Concept of Fields.
-      link: "#"
+    - title: "Towards an Integrated Theory of Entrepreneurial Ecosystems: Systematizing Previous Research by Introducing the Concept of Fields"
       authors: Michaela Hruskova, Katharina Scheidgen
-      conference: 
       
-    - title: The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin.
-      link: "#"
+    - title: "The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin"
       authors: Katharina Scheidgen
-      conference: 
 
 conferences:
-  self organized:    
-    - title: A nice get-to-gether
-      organizers: Me, myself, and Irene 
-      link: "#"
-      description: "On a calm summer evening ..."  
+  organized:    
+    - conference: Temporal Dynamics in Entrepreneurial Ecosystems
+      organizers: Timo Braun (FU Berlin), Katharina Scheidgen (TU Berlin), Suntje Schmidt (HU Berlin)
+      conference_link: "https://www.tdee-symposium.org"
+      description: "Herrenhäuser symposium, funded by Volkswagen Foundation (25.000€), July 2019, Hannover"
+    - conference: Innovation Processes Across Organizations
+      description: "Workshop with Prof. Hans Berends (VU Amsterdam) at the graduate school „Innovation Societ Today“ in
+        collaboration with the DFG funded research group „Organized Creativity“, January 2017"
+    - description: "PhD-Workshop with Prof. Nils Brunsson (Uppsala University), November 2016, TU Berlin" 
+    - conference: "Bridges over Troubled Water - Network Constitution in Innovation Processes"
+      organizers: Philip Roth (RWTH Aachen), Katharina Scheidgen (TU Berlin)
+      description: "two-day conferecene at TU Berlin, 45 participants, October 2016"
+      conference_link: "https://www.konstitution-von-netzwerken.de"
+  presentations:
+    - title: "Local Cultures of Tie Formation: The Impact of Context-specific Institutions on Advice Tie Formation"
+      authors: Philip Roth, Katharina Scheidgen
+      conference: 4th European Conference on Social Networks
+      description: September 2019, ETH Zürich, Switzerland
 
 footer: >
     2019 Katharina Scheidgen All Rights Reserved

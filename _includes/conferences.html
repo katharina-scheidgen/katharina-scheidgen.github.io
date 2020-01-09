@@ -1,10 +1,10 @@
 {% assign conferences = site.data.data.conferences %}
 {% if conferences %}
-<section class="section publications-section">
+<section class="section conference-section">
   <a class="anchor" name="conferences"></a>
   <h2 class="section-title">
     <i class="fas fa-file-alt"></i>
-    Conferences
+    Conferences and Workshops
   </h2>
 
   {% for category in conferences %}    
@@ -12,15 +12,33 @@
     <ul class="list-unstyled">
       {% for conference in category[1] %}
         <li>
-          {% if conference.organizers %} 
-            <span class="conference-organizers">{{ conference.organizers }}:</span>
+          {% if conference.authors %} 
+            <span class="conference-authors">{{ conference.authors }}:</span>
           {% endif %}
-          {% if conference.link %}
-            <a href="{{ conference.link }}">{{ conference.title }}</a>;
-          {% else %}
-            <span>{{ conference.title }};</span>
-          {% endif %}    
-          <span class="conference-description">{{ conference.description }}</span>
+          {% if conference.title %} 
+            {% if conference.link %}
+              <a class="conference-title" href="{{ conference.link }}">{{ conference.title }}</a>;
+            {% else %}
+              <span class="conference-title">{{ conference.title }};</span>
+            {% endif %}    
+          {% endif %}       
+
+          {% if conference.conference %} 
+            {% if conference.conference_link %}
+              <a class="conference-conference" href="{{ conference.conference_link }}">{{ conference.conference }}</a>;
+            {% else %}
+              <span class="conference-conference">{{ conference.conference }};</span>
+            {% endif %}    
+          {% endif %}
+
+          {% if conference.organizers %} 
+            Organized by
+            <span class="conference-organizers">{{ conference.organizers }}</span>;
+          {% endif %}
+          
+          {% if conference.description %}
+            <span class="conference-description">{{ conference.description }}</span>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>

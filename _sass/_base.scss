@@ -290,11 +290,22 @@ a {
         }
         .publication-title {
             font-size: 1rem;
-            font-weight: $typography_bold;
         }
         .publication-authors {
             font-style: italic;
         }
+    }
+
+    .conference-section {       
+        li {
+            margin-bottom: 0.75rem;
+        } 
+        .conference-conference, .conference-title {
+            font-size: 1rem;
+        }
+        .conference-organizers, .conference-authors {
+            font-style: italic;
+        }        
     }
 }
 
