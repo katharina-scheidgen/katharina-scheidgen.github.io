@@ -2,7 +2,7 @@
   <h3 class="section-title">
     <!-- <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>      
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span> -->
     <i class="fas fa-archive"></i>
     Recent Projects
@@ -14,7 +14,13 @@
     {% endif %}
     <h2>{{ project.title }}</h2>
     <p class="metadata">
-      <span class="type">{{ project.type }}</span>{% if project.date %}, <span class="date">{{ project.date | date: '%B %Y' }}</span>{% endif %}
+      <span class="type">{{ project.type }}</span>{% if project.date %},
+        <span class="date">{{ project.date | date: '%B %Y' }}</span>{% endif %}{% if project.download %},
+        <span class="publisherLink">
+          <a target="new" href="{{ project.publisherLink}}" title="Link to publisher: {{ project.title }}">link to publisher</a> or
+          <a target="new" href="/assets/{{ project.download}}" title="Download: {{ project.title }}">download here</a>
+        </span>
+      {% endif %}
     </p>
     {% if project.abstract %}
       <div class="abstract">

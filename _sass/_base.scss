@@ -1,9 +1,9 @@
 /* Green variables */
-$theme-color: #4D6E12;
-$theme-color-light: #638520;
+$theme-color: #01579b; /*#4D6E12;*/
+$theme-color-light: #4f83cc; /* #638520;*/
 $text-color: #000;
 
-$content-width: 600px; 
+$content-width: 600px;
 $sidebar-width: 340px;
 
 $typography_lineHeight: 1.5rem;
@@ -22,20 +22,20 @@ html {
     scroll-behavior: smooth;
     // Demonstrate the vertical rhythm at 12px
     // background-image: linear-gradient(#f99 1px, transparent 1px);
-    // background-size: 100% 0.75rem;  
+    // background-size: 100% 0.75rem;
 }
 
 body {
-    line-height: 1.5rem;  
+    line-height: 1.5rem;
     padding: 0;
     margin: 0;
 }
-  
+
 /* Aligns to 72px */
 h1 {
     font-size: 2.25rem;
     line-height: 1.16666666666;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 /* Aligns to 72px */
@@ -43,7 +43,7 @@ h2 {
     font-size: 1.875rem;
     line-height: 1.2;
     padding-top: 1.5rem;
-    margin-bottom: 0.75rem; 
+    margin-bottom: 0.75rem;
 }
 
 /* Aligns to 48px */
@@ -51,7 +51,7 @@ h3 {
     font-size: 1.5rem;
     line-height: 1.25;
     padding-top: 0.75rem;
-    margin-bottom: 0.375rem; 
+    margin-bottom: 0.375rem;
 }
 
 /* Aligns to 36px */
@@ -59,7 +59,7 @@ h4 {
     font-size: 1,3125rem;
     line-height: 1.3333333;
     padding-top: 0.75rem;
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0.5rem;
 }
 
 /* Aligns to 36px */
@@ -67,7 +67,7 @@ h5 {
     font-size: 1.125rem;
     line-height: 1.5rem;
     padding-top: 0.75rem;
-    margin-bottom: 0,5625rem; 
+    margin-bottom: 0,5625rem;
 }
 
 /* Aligns to 36px */
@@ -75,27 +75,27 @@ h6 {
     font-size: 1rem;
     line-height: 1.5rem;
     padding-top: 0,5625rem;
-    margin-bottom: 0,1875rem; 
+    margin-bottom: 0,1875rem;
 }
 
 p {
-    margin-bottom: 0.75rem; 
+    margin-bottom: 0.75rem;
 }
 
 h1, h2, h3,
 h4, h5, h6,
 p {
-    margin-top: 0; 
+    margin-top: 0;
 }
 
 // Misc set up stuff
 h1, h2, h3,
 h4, h5, h6 {
-    font-family: $typography_sans; 
+    font-family: $typography_sans;
 }
 
 body {
-    font-family: $typography_serif; 
+    font-family: $typography_serif;
 }
 
 small, .text_small {font-size: 0.833em;}
@@ -106,7 +106,7 @@ a {
     &:hover {
         color: lighten($theme-color, 15%);
         text-decoration: underline;
-    }    
+    }
 }
 
 .wrapper {
@@ -134,15 +134,19 @@ a {
             color: $theme-color;
             text-decoration: none;
         }
-    }    
+    }
 
     .profile-container {
         padding: 1.5rem;
         text-align: center;
+
+        .name {
+            color: $theme-color;
+        }
     }
-    
-    .tagline {  
-        font-weight: $typography_normal;  
+
+    .tagline {
+        font-weight: $typography_normal;
     }
     .profile {
         margin-bottom: 15px;
@@ -160,7 +164,7 @@ a {
     }
     .contact-list {
         .fas, .fab {
-            margin-right: 5px;         
+            margin-right: 5px;
             vertical-align: middle;
         }
         li {
@@ -178,14 +182,14 @@ a {
         font-size: 1rem;
         font-weight: 700;
         margin-top: 0;
-        margin-bottom: 15px; 
+        margin-bottom: 15px;
     }
-    
+
     ul {
         margin-top: 0;
         margin-bottom: 0.75rem;
-        padding-left:0; 
-        list-style-position:inside; 
+        padding-left:0;
+        list-style-position:inside;
         padding-left: 0;
         list-style: none;
     }
@@ -207,37 +211,45 @@ a {
         padding-left: 0;
         list-style: none;
     }
-    
+
     ul:not(.list-unstyled) {
         list-style-type: none;
-    
+
         li:before {
             font-size: 1rem;
             content: '\025B8';
             margin-right: 8px;
-        }    
+        }
     }
-    
+
     ol, ul {
         margin-top: 0;
         margin-bottom: 0.75rem;
-        padding-left:0; 
-        list-style-position:inside; 
+        padding-left:0;
+        list-style-position:inside;
     }
 
     img {
-        width: 100%;        
+        width: 100%;
     }
-    
+
     .metadata {
         margin-top: (-0.75rem);
         color: $theme-color;
-        font-family: $typography_sans; 
+        font-family: $typography_sans;
         .type {
             font-weight: $typography_bold;
         }
         .date {
             font-style: italic;
+        }
+        a {
+            color: $theme-color;
+            text-decoration: underline;
+
+            &:hover {
+                color: $theme-color-light;
+            }
         }
     }
 
@@ -250,15 +262,15 @@ a {
     }
 
     .section-title {
-        text-transform: uppercase;        
+        text-transform: uppercase;
         color: $theme-color;
-        
+
         font-size: 1.125rem;
         line-height: 1.5rem;
         padding: 0;
         margin-top: 3rem;
         margin-bottom: 1.5rem;
-        // display: none; 
+        // display: none;
 
         .fas {
             margin-right: 12px;
@@ -273,7 +285,7 @@ a {
         position: relative;
         overflow: hidden;
         margin-bottom: 0.125rem;
-        font-family: Helveitica Neue, sans-serif; 
+        font-family: Helveitica Neue, sans-serif;
     }
     .time {
         position: absolute;
@@ -296,16 +308,16 @@ a {
         }
     }
 
-    .conference-section {       
+    .conference-section {
         li {
             margin-bottom: 0.75rem;
-        } 
+        }
         .conference-conference, .conference-title {
             font-size: 1rem;
         }
         .conference-organizers, .conference-authors {
             font-style: italic;
-        }        
+        }
     }
 }
 
@@ -322,7 +334,7 @@ a {
     justify-content: center;
 
     a {
-        color: white;     
+        color: white;
         background-position: center;
         transition: background 0.8s;
 
@@ -349,7 +361,7 @@ a {
         padding: 0.75rem 1.5rem;
         margin: 0;
         list-style-type: none;
-        list-style: none; 
+        list-style: none;
     }
 
     .show-menu {

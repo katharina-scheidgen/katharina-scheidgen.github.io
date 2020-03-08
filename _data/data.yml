@@ -1,140 +1,146 @@
---- 
-career-profile: 
+---
+career-profile:
   summary: |
       My research takes a sociological perspective on entrepreneurship and innovation. It is located at the intersection of entrepreneurship,
       organizational theory, and sociology. My past work primarily addressed the tie formation of innovative new ventures and the discourse
       on entrepreneurial ecosystems. My current research builds a bridge between research on entrepreneurial teams and networks in entrepreneurship.
   title: "Research Profile"
-conferences: 
-  organized: 
-    - 
+conferences:
+  organized:
+    -
       conference: "Temporal Dynamics in Entrepreneurial Ecosystems"
       conference_link: "https://www.tdee-symposium.org"
       description: "Herrenhäuser symposium, funded by Volkswagen Foundation (25.000€), July 2019, Hannover"
       organizers: "Timo Braun (FU Berlin), Katharina Scheidgen (TU Berlin), Suntje Schmidt (HU Berlin)"
-    - 
+    -
       conference: "Innovation Processes Across Organizations"
       description: "Workshop with Prof. Hans Berends (VU Amsterdam) at the graduate school „Innovation Societ Today“ in collaboration with the DFG funded research group „Organized Creativity“, January 2017"
-    - 
+    -
       description: "PhD-Workshop with Prof. Nils Brunsson (Uppsala University), November 2016, TU Berlin"
-    - 
+    -
       conference: "Bridges over Troubled Water - Network Constitution in Innovation Processes"
       conference_link: "https://www.konstitution-von-netzwerken.de"
       description: "two-day conferecene at TU Berlin, 45 participants, October 2016"
       organizers: "Philip Roth (RWTH Aachen), Katharina Scheidgen (TU Berlin)"
-  presentations: 
-    - 
+
+  presentations:
+    -
+      authors: "Katharina Scheidgen"
+      conference: "Conference of the German Network Research Association (DGNet)"
+      description: "March 2020, Schader Foundation, Darmstadt, Germany"
+      title: "Innovative Wachstumsunternehmen und unternehmerische Teams: Das Verhältnis persönlicher und interorganisationaler Netzwerke"
+    -
       authors: "Philip Roth, Katharina Scheidgen"
       conference: "4th European Conference on Social Networks"
       description: "September 2019, ETH Zürich, Switzerland"
       title: "Local Cultures of Tie Formation: The Impact of Context-specific Institutions on Advice Tie Formation"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "4th European Conference on Social Networks"
       description: "September 2019, ETH Zürich, Switzerland"
       title: "How New Ventures form Organizational Ties: The Varying Impact of Personal Ties in Berlin and Silicon Valley"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Symposium \"Temporal Dynamics in Entrepreneurial Ecosystems\" at Herrenhaussen Castle, funded by the Volkswagen Foundation"
       description: "July 2019, Hannover, Germany"
       title: "How Entrepreneurs Acquire Resources from the Entrepreneurial Ecosystem"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Invited talk: Brown Bag Lecture at NIKOS-Entrepreneurship Department"
       description: "April 2019, University of Twente, Netherlands"
       title: "Entrepreneurial Networking in Berlin and Silicon Valley. A Comparison"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Spring Conference of the Section Organizational Sociology"
       description: "April 2019, Helmut Schmidt University Hamburg, Germany"
       title: "Wie Start-ups und Spin-offs Netzwerke bilden. Berlin und Silicon Valley im Vergleich"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Workshop of the DFG-funded network Venturing Together!"
       description: "April 2019, TU Munich, Germany"
       title: "Understanding Resource Acquisition in Entrepreneurial Teams: The Relation of Personal and Organizational Networks"
-    - 
+    -
       authors: "Philip Roth, Katharina Scheidgen"
       conference: "Spring Conference of the Section Sociological Network Research"
       description: "February 2019, Leibniz Institute for the Social Sciences, Cologne, Germany"
       title: "Lokale Kulturen der Formation von Ratgebernetzwerken im Kontext von Innovationsversuchen"
-    - 
+    -
       authors: "Philip Roth, Katharina Scheidgen"
       conference: "39. Conference of the German Sociological Association"
       description: "September 2018, University of Göttingen, Germany"
       title: "Eigenlogiken der Netzwerkgenese – Von der systematischen Bedeutung kontextspezifischen Wissens über legitime Praktiken für die Genese von Netzwerken im Innovationsprozess"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "78th Annual Meeting of the Academy of Management"
       description: "August 2018, Chicago, USA"
       title: "Social Contexts in Team Formation. Why do Start-ups and Spin-offs Form Teams Differently?"
-    - 
+    -
       authors: "Timo Braun, Suntje Schmidt, Katharina Scheidgen"
       conference: "3rd Workshop of the DFG-funded network Temporary Organizing"
       description: "June 2018, Tilburg University, Netherlands"
       title: "Temporal Dynamics in Entrepreneurial Networks and Ecosystems"
-    - 
+    -
       authors: "Thomas Schmidt, Katharina Scheidgen"
       conference: "Babson Conference"
       description: "June 2018, Waterford Institute of Technology, Ireland"
       title: "How Networking Practices Constitute Entrepreneurial Ecosystems"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Doctoral Consortium prior the Babson Conference"
       description: "June 2018, Waterford Institute of Technology, Ireland"
       title: "Networking for Innovation: Entrepreneurial Networking in Berlin and Silicon Valley. A Comparison"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Workshop of the DFG-funded network Venturing Together!"
       description: "April 2018, TU Berlin, Germany"
       title: "Social Contexts in Team Formation: Why Do Independent Start-ups and University Spin-offs Form Teams Differently?"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Workshop of the Working Group Network Analysis and Organizations"
       description: "November 2017, University of Heidelberg, Germany"
       title: "Network Development during the Founding Process. A Comparison of Start-ups and University Spin-offs"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "33rd EGOS Colloquium"
       description: "July 2017, Copenhagen Business School, Denmark"
       title: "The Impact of Organizational and Interorganizational Practices on the Governance of Fields"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "EGOS Pre-Colloquium PhD Workshop"
       description: "July 2017, Copenhagen Business School, Denmark"
       title: "Network Development Processes of Start-ups and University Spin-offs"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "The Fifth Austrian Early Scholar Workshop in Management"
       description: "May 2017, WU Vienna, Austria"
       title: "Embedding in Fields by Embedded Networking: Start-ups’ Networking Practices in Distinctive Contexts"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "New Institutionalism Workshop"
       description: "March 2017, The Hebrew University Jerusalem, Israel"
       title: "Network Development Processes of Start-ups in Innovation-specific Fields"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "2nd Workshop on Entrepreneurship as Practice"
       description: "February 2017, UCD School of Business Dublin, Ireland"
       title: "Networking Practices of Start-ups: Influenced by the Context, Influencing Network Design?"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "ISBE Conferenc"
       description: "October 2016, Paris, France"
       title: "How Fields Matter: Network Development of Start-ups in Innovation-specific Contexts"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "Bridges Over Troubled Water: Die Konstitution von Netzwerken im Innovationsprozess"
       description: "October 2016, TU Berlin, Germany"
       title: "Innovationsspezifische Netzwerkbildung von Start-ups im Innovationsprozess"
-    - 
+    -
       authors: "Katharina Scheidgen"
       conference: "The Fourth Austrian Early Scholar Workshop in Management"
       description: "May 2016, JKU Linz, Austria"
       title: "Innovation-specific Network Development Processes of Start-ups"
-education: 
-  - 
+education:
+  -
     degree: "PhD candidate, Sociology of Organization, Innovation, and Entrepreneurship"
     details: |
         My PhD research was positioned at the intersection of sociology, organizational theory and entrepreneurship.
@@ -143,45 +149,52 @@ education:
           - Submission of PhD thesis: December 2019
     time: "2015 - 2019"
     university: "Technische Universität Berlin"
-  - 
+  -
     degree: "BA and MA in Sociology and Technology Studies"
     details: "During my bachelor's and master's degree, I focussed on the sociology of organizations, innovation studies and science and technology studies.\n"
     time: "2007 - 2014"
     university: "Technische Universität Berlin"
 footer: "2019 Katharina Scheidgen All Rights Reserved"
-publications: 
-  monographs: 
-    - 
+publications:
+  monographs:
+    -
       authors: "Katharina Scheidgen"
       conference: "PhD thesis"
       link: "#"
       title: "Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation."
-  papers: 
-    - 
+  papers:
+    -
       authors: "Katharina Scheidgen"
-      conference: "Entrepreneurship and Regional Development (accepted for publication)"
+      conference: "Entrepreneurship and Regional Development, 2020"
       title: "Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs"
-    - 
+      link: "https://www.tandfonline.com/doi/full/10.1080/08985626.2020.1734263"
+      doi: "10.1080/08985626.2020.1734263"
+      download: "downloads/Scheidgen_2020_Degrees of integration_how a fragmented entrepreneurial ecosystem promotes different types of entrepreneurs.pdf"
+    -
       authors: "Katharina Scheidgen"
       conference: "Historical Social Research, 44 (4), 2019"
-      link: "https://www.researchgate.net/publication/337591748_Social_Contexts_in_Team_Formation_Why_Do_Independent_Start-Ups_and_University_Spin-Offs_Form_Teams_Differently"
+      link: "https://www.jstor.org/stable/26804866?seq=1"
       title: "Social Contexts in Team Formation: Why Do Independent Start-ups and University Spin-offs Form Teams Differently?"
-    - 
+      doi: "10.2307/26804866"
+      download: "downloads/Scheidgen_2019_Social Contexts in Team Formation.pdf"
+    -
       authors: "Katharina Scheidgen"
-      conference: "Jannis Hergesell, Arne Maibaum, Celia Minnetian, Ariane Sept (editors): Innovationsphänomene, Modi und Effekte der Innovationsgesellschaft; Springer, Wiesbaden."
+      conference: "Jannis Hergesell, Arne Maibaum, Celia Minnetian, Ariane Sept (editors): Innovationsphänomene, Modi und Effekte der Innovationsgesellschaft; Springer, Wiesbaden, 2018"
       title: "Gründen als Modus des Innovierens. Netzwerkbildung von Start-ups und Spin-offs im Innovationsprozess"
+      link: "https://link.springer.com/chapter/10.1007/978-3-658-22734-0_7"
+      download: "downloads/Scheidgen_2018_Gründen als Modus des Innovierens.pdf"
   ? "working papers"
-  : 
-    - 
+  :
+    -
       authors: "Philip Roth, Katharina Scheidgen"
       title: "Local Cultures of Tie Formation. The Impact of Context-specific Institutions on Advice Tie Formation in Innovation Attempts"
-    - 
+    -
       authors: "Michaela Hruskova, Katharina Scheidgen"
       title: "Towards an Integrated Theory of Entrepreneurial Ecosystems: Systematizing Previous Research by Introducing the Concept of Fields"
-    - 
+    -
       authors: "Katharina Scheidgen"
       title: "The Strength of Personal Ties — Interorganizational Tie Formation in Silicon Valley and Berlin"
-sidebar: 
+sidebar:
   about: false
   avatar: profile.jpg
   bitbucket: ~
