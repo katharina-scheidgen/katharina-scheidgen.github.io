@@ -17,8 +17,10 @@
       <span class="type">{{ project.type }}</span>{% if project.date %},
         <span class="date">{{ project.date | date: '%B %Y' }}</span>{% endif %}{% if project.download %},
         <span class="publisherLink">
+          {% if project.publisherLink %}
           <a target="new" href="{{ project.publisherLink}}" title="Link to publisher: {{ project.title }}">link to publisher</a> or
-          <a target="new" href="/assets/{{ project.download}}" title="Download: {{ project.title }}">download here</a>
+          {% endif %}
+          <a target="new" href="/assets/{{ project.download}}" title="Download: {{ project.title }}">download {{ project.downloadQualifier }} here</a>
         </span>
       {% endif %}
     </p>
