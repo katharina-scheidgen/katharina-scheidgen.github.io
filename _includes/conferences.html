@@ -7,43 +7,44 @@
     Conferences and Workshops
   </h2>
 
-  {% for category in conferences %}    
+  {% for category in conferences %}
     <h3>{{ category[0] }}</h3>
     <ul class="list-unstyled">
       {% for conference in category[1] %}
         <li>
-          {% if conference.authors %} 
-            <span class="conference-authors">{{ conference.authors }}:</span>
-          {% endif %}
-          {% if conference.title %} 
-            {% if conference.link %}
-              <a class="conference-title" href="{{ conference.link }}">{{ conference.title }}</a>;
-            {% else %}
-              <span class="conference-title">{{ conference.title }};</span>
-            {% endif %}    
-          {% endif %}       
-
-          {% if conference.conference %} 
+          {% if conference.conference %}
             {% if conference.conference_link %}
               <a class="conference-conference" href="{{ conference.conference_link }}">{{ conference.conference }}</a>;
             {% else %}
               <span class="conference-conference">{{ conference.conference }};</span>
-            {% endif %}    
+            {% endif %}
           {% endif %}
 
-          {% if conference.organizers %} 
-            Organized by
-            <span class="conference-organizers">{{ conference.organizers }}</span>;
+          {% if conference.title %}
+            {% if conference.link %}
+              <a class="conference-title" href="{{ conference.link }}">„{{ conference.title }}“</a>;
+            {% else %}
+              <span class="conference-title">„{{ conference.title }}“;</span>
+            {% endif %}
           {% endif %}
-          
+
+          {% if conference.organizers %}
+            Organized by
+            <span class="conference-organizers">{{ conference.organizers }};</span>
+          {% endif %}
+
           {% if conference.description %}
             <span class="conference-description">{{ conference.description }}</span>
+          {% endif %}
+
+          {% if conference.co_authors %}
+            <span class="conference-authors">(with {{ conference.co_authors }})</span>
           {% endif %}
         </li>
       {% endfor %}
     </ul>
   {% endfor %}
-  
+
 
 </section><!--//section-->
 {% endif %}

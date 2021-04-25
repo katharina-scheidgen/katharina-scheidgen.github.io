@@ -5,3 +5,4 @@ _site/
 .vscode
 .ruby-version
 assets/images/.DS_Store
+tmp/

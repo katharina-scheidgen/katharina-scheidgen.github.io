@@ -14,9 +14,9 @@
         <li>
           <span class="publication-authors">{{ publication.authors }}:</span>
           {% if publication.link %}
-            <a target="new" href="{{ publication.link }}" title="{% if publication.doi %}{{publication.doi}}: {% endif %}{{ publication.title }}">{{ publication.title }}</a>;
+            <a target="new" href="{{ publication.link }}" title="{% if publication.doi %}{{publication.doi}}: {% endif %}{{ publication.title }}">„{{ publication.title }}“</a>;
           {% else %}
-            <span>{{ publication.title }};</span>
+            <span>„{{ publication.title }}“;</span>
           {% endif %}
           <span class="publication-conference">{{ publication.conference }}</span>{% if publication.download %},
             <a target="new" href="/assets/{{ publication.download }}" title="Download PDF: {{ publication.title }}">PDF download</a>

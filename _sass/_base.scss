@@ -23,6 +23,7 @@ html {
     // Demonstrate the vertical rhythm at 12px
     // background-image: linear-gradient(#f99 1px, transparent 1px);
     // background-size: 100% 0.75rem;
+    background: rgb(255, 255, 252);
 }
 
 body {
@@ -42,44 +43,32 @@ h1 {
 h2 {
     font-size: 1.875rem;
     line-height: 1.2;
+    padding-top: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Aligns to 48px */
+h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
     padding-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
 
 /* Aligns to 48px */
-h3 {
-    font-size: 1.5rem;
-    line-height: 1.25;
-    padding-top: 0.75rem;
-    margin-bottom: 0.375rem;
-}
-
-/* Aligns to 36px */
-h4 {
-    font-size: 1,3125rem;
-    line-height: 1.3333333;
-    padding-top: 0.75rem;
-    margin-bottom: 0.5rem;
-}
-
-/* Aligns to 36px */
-h5 {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-    padding-top: 0.75rem;
-    margin-bottom: 0,5625rem;
-}
-
-/* Aligns to 36px */
-h6 {
+h4, h5, h6 {
     font-size: 1rem;
-    line-height: 1.5rem;
-    padding-top: 0,5625rem;
-    margin-bottom: 0,1875rem;
+    line-height: 1.5;
+    padding-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 p {
     margin-bottom: 0.75rem;
+}
+
+p:empty {
+    display: none;
 }
 
 h1, h2, h3,
@@ -214,7 +203,6 @@ a {
 
     ul:not(.list-unstyled) {
         list-style-type: none;
-
         li:before {
             font-size: 1rem;
             content: '\025B8';
@@ -227,6 +215,8 @@ a {
         margin-bottom: 0.75rem;
         padding-left:0;
         list-style-position:inside;
+        text-indent: -1rem;
+        margin-left: 1rem;
     }
 
     img {
@@ -255,7 +245,7 @@ a {
 
     .abstract {
         font-style: italic;
-        p:before {
+        p:first-child::before {
             content: 'abstract\002014';
             font-weight: $typography_bold;
         }
@@ -285,7 +275,7 @@ a {
         position: relative;
         overflow: hidden;
         margin-bottom: 0.125rem;
-        font-family: Helveitica Neue, sans-serif;
+        font-family: $typography_sans;
     }
     .time {
         position: absolute;
@@ -297,6 +287,10 @@ a {
     }
 
     .publications-section {
+        ul {
+            text-indent: 0;
+            margin-left: 0;
+        }
         li {
             margin-bottom: 0.75rem;
         }
@@ -309,14 +303,51 @@ a {
     }
 
     .conference-section {
+        ul {
+            text-indent: 0;
+            margin-left: 0;
+        }
         li {
             margin-bottom: 0.75rem;
         }
         .conference-conference, .conference-title {
             font-size: 1rem;
         }
-        .conference-organizers, .conference-authors {
+        .conference-authors {
             font-style: italic;
+        }
+    }
+
+    .research-overview {
+        margin-top: 0.75rem;
+
+        h3 {
+            text-align: center;
+            padding-top: 0;
+        }
+
+        .research-overview-boxes {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            flex-wrap: wrap;
+            margin: 0.75rem -0.75rem;
+
+            div {
+                flex: 1;
+                background-color: white;
+                margin: 0.75rem;
+                padding: 0.75rem;
+                padding-bottom: 0;
+                min-width: 200px;
+                // @include drop-shadow();
+                border-radius: 2px;
+                box-shadow:  0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+            }
+        }
+
+        .research-overview-caption {
+            text-align: center;
         }
     }
 }
@@ -339,8 +370,8 @@ a {
         transition: background 0.8s;
 
         border: none;
-        border-radius: 1px;
-        padding: 2px 8px;
+        border-radius: 4px;
+        padding: 0px 4px 2px 4px;
 
         &:hover {
             text-decoration: none;
@@ -364,6 +395,10 @@ a {
         list-style: none;
     }
 
+    .menu-item-project {
+
+    }
+
     .show-menu {
         padding: 0.75rem 1.5rem;
         &:hover {
@@ -384,9 +419,9 @@ a {
 }
 
 .footer {
-    padding-top: 30px;
+    padding-top: 1.5rem;
     .copyright {
-        line-height: 1.6;
-        font-size: 13px;
+        line-height: 1.5rem;
+        font-size: 1rem;
     }
 }
