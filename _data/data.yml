@@ -137,7 +137,8 @@ conferences:
       description: "May 2016, JKU Linz, Austria"
       title: "Innovation-specific Network Development Processes of Start-ups"
 cv:
-  - degreee: "Junior Professor, Chair of Entrepreneurship and Innovation"
+  - 
+    degree: "Junior Professor, Chair of Entrepreneurship and Innovation"
     time: "since October 2021"
     university: "Georg-August-University Göttingen"
   -
