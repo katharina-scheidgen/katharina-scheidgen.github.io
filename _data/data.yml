@@ -137,13 +137,16 @@ conferences:
       description: "May 2016, JKU Linz, Austria"
       title: "Innovation-specific Network Development Processes of Start-ups"
 cv:
+  - degreee: "Junior Professor, Chair of Entrepreneurship and Innovation"
+    time: "since October 2021"
+    university: "Georg-August-University Göttingen"
   -
     degree: "Visiting Scholar, Department of Entrepreneurship and Innovation"
     time: "February 2021 – July 2021"
     university: "University of Amsterdam"
   -
     degree: "PostDoc, Research Center for Digital Transformation and Institute for Management and Organization"
-    time: "since September 2020"
+    time: "September 2020 – September 2021"
     university: "Leuphana University Lüneburg"
   -
     degree: "Visiting Scholar, Department of Business Administration "
@@ -177,8 +180,12 @@ publications:
       title: "Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation."
   papers:
     -
+      authors: "Katharina Scheidgen, Michaela Hruskova"
+      conference: "Robert Huggins, Fumi Kitagawa, Daniel Prokop, Christina Theodoraki and Piers Thompson (editors): Entrepreneurial Ecosystems in Cities and Regions: Emergence, Evolution, Future. Oxford University Press (forthcoming)"
+      title: "Demystifying Silicon Valley: Unequal entry thresholds between entrepreneurial ecosystems"
+    -
       authors: "Isabell Stamm, Katharina Scheidgen, Janina Sundermeier, Annekathrin Hoppy, Hannes Rothe, Michelle Christensen, Florian Conradi, Heike Pantelmann"
-      conference: "Jürgen Beyer, Nina Baur (editors): Wirtschaft und soziale Ungleichheit (to be published)"
+      conference: "Jürgen Beyer, Nina Baur (editors): Wirtschaft und soziale Ungleichheit (forthcoming)"
       title: "Soziale Ungleichheit und Unternehmertum"
       # link: "https://www.tandfonline.com/doi/full/10.1080/08985626.2020.1734263"
       # doi: "10.1080/08985626.2020.1734263"
