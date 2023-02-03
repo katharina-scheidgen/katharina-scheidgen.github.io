@@ -1,54 +1,62 @@
 <section class="section">
   <h3 class="section-title">
+    <a class="anchor" name="research"></a>
     <i class="fas fa-graduation-cap"></i>
     Research
   </h3>
 
   <div class="research-overview">
-    <h3>Entrepreneurship and Innovation</h3>
-    <div class="research-overview-boxes">
-      {% for project in site.projects | sort: "title" %}
-        <div>
-          {{ project.overview | markdownify }}
-        </div>
-      {% endfor %}
-    </div>
-    <!-- <p class="research-overview-caption">Fig. 1: research themes</p> -->
+    {% if site.data.data.summary %}
+      {{ site.data.data.summary | markdownify }}
+    {% endif %}
+    {% if site.data.data.projects %}
+      <h3>Entrepreneurship and Innovation</h3>
+      <div class="research-overview-boxes">
+        {% for project in site.projects | sort: "title" %}
+          <div>
+            {{ project.overview | markdownify }}
+          </div>
+        {% endfor %}
+      </div>
+      <!-- <p class="research-overview-caption">Fig. 1: research themes</p> -->
+    {% endif %}
   </div>
 
-  {% for project in site.projects | sort: "title" %}
-    {% if project.menu %}
-      <a class="anchor" name="{{ project.menu }}"></a>
-    {% endif %}
-    <h2>{{ project.title }}</h2>
-    <p class="content">{{ project.content | markdownify }}</p>
-    {% if project.publications %}
-      <h3>Publications</h3>
-      {% for publication in project.publications | sort: "title" %}
-        <h4>{{ publication.title }}</h4>
-        <p class="metadata">
-          {% if publication.authors %}<span style="color: black;">{{publication.authors}}<br/></span>{% endif %}
-            <span class="type">{{ publication.type }}</span>{% if publication.date %},
-            <span class="date">{{ publication.date | date: '%B %Y' }}</span>{% endif %}{% if (publication.download or publication.publisherLink) %},
-            <span class="publisherLink">
-              {% if publication.publisherLink %}
-              <a target="new" href="{{publication.publisherLink}}" title="Link to publisher: {{ publication.title }}">link to publisher</a>{% if publication.download %} or{% endif %}
-              {% endif %}
-              {% if publication.download %}
-              <a target="new" href="/assets/{{ publication.download}}" title="Download: {{ publication.title }}">download {{ publication.downloadQualifier }} here</a>
-              {% endif %}
-              {% if publication.more %}
-                {{publication.more }}
-              {% endif %}
-            </span>
+  {% if site.data.data.projects %}
+    {% for project in site.projects | sort: "title" %}
+      {% if project.menu %}
+        <a class="anchor" name="{{ project.menu }}"></a>
+      {% endif %}
+      <h2>{{ project.title }}</h2>
+      <p class="content">{{ project.content | markdownify }}</p>
+      {% if project.publications %}
+        <h3>Publications</h3>
+        {% for publication in project.publications | sort: "title" %}
+          <h4>{{ publication.title }}</h4>
+          <p class="metadata">
+            {% if publication.authors %}<span style="color: black;">{{publication.authors}}<br/></span>{% endif %}
+              <span class="type">{{ publication.type }}</span>{% if publication.date %},
+              <span class="date">{{ publication.date | date: '%B %Y' }}</span>{% endif %}{% if (publication.download or publication.publisherLink) %},
+              <span class="publisherLink">
+                {% if publication.publisherLink %}
+                <a target="new" href="{{publication.publisherLink}}" title="Link to publisher: {{ publication.title }}">link to publisher</a>{% if publication.download %} or{% endif %}
+                {% endif %}
+                {% if publication.download %}
+                <a target="new" href="/assets/{{ publication.download}}" title="Download: {{ publication.title }}">download {{ publication.downloadQualifier }} here</a>
+                {% endif %}
+                {% if publication.more %}
+                  {{publication.more }}
+                {% endif %}
+              </span>
+            {% endif %}
+          </p>
+          {% if publication.abstract %}
+            <div class="abstract">
+              {{ publication.abstract | markdownify }}
+            </div>
           {% endif %}
-        </p>
-        {% if publication.abstract %}
-          <div class="abstract">
-            {{ publication.abstract | markdownify }}
-          </div>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 </section>

@@ -12,16 +12,19 @@
     <label for="show-menu" class="show-menu"><i class="fas fa-bars"></i></label>
     <input type="checkbox" id="show-menu" role="button">
     <ul id="menu" onClick="hideMenu()">
-      {% for project in site.projects %}
-        {% if project.menu %}
-          <li class='menu-item-project'><a href="#{{ project.menu }}">{{ project.menu }}</a></li>
-        {% endif %}
-      {% endfor %}
+      <li><a href="#research">Research</a></li>
+      {% if site.data.data.projects %}
+        {% for project in site.projects %}
+          {% if project.menu %}
+            <li class='menu-item-project'><a href="#{{ project.menu }}">{{ project.menu }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}        
+      <li><a href="#publications">Publications</a></li>
       <li><a href="#cv">Curriculum Vitae</a></li>
       {% if site.data.data.experiences %}
         <li><a href="#experiences">Experience</a></li>
       {% endif %}
-      <li><a href="#publications">Publications</a></li>
       <li><a href="#conferences">Conferences/Workshops</a></li>
     </ul>
   </nav>

@@ -1,4 +1,15 @@
 ---
+summary: |
+  I'm curious about entrepreneurship, innovation, and organization theory. 
+  My research centers around three broad, interrelated topics.
+  1.	Resourcing: How do entrepreneurial ventures mobilize resources, e.g. via networks, networking, or diverse resourcing practices? How is this shaped by their particular social context? How is this shaped by different team members?
+  2.	Resourcing environments: What characterizes different resourcing environments, like entrepreneurial ecosystems or institutional fields? How do these characteristics shape entrepreneurial processes over time? 
+  3.	Entrepreneurship and society: How can entrepreneurship contribute to society? How does society act in solidarity with entrepreneurs, e.g., during crises?
+
+  I'm exploring these questions within different settings. For example:
+  -	Entrepreneurship and digital social innovation during the Covid-19 crisis
+  -	High growth entrepreneurship in Silicon Valley and Berlin, comprising independent start-ups and academic spin-offs
+  -	Solo entrepreneurs
 career-profile:
   summary: |
       My research takes a sociological perspective on entrepreneurship and innovation. It is located at the intersection of entrepreneurship,
@@ -158,9 +169,9 @@ cv:
     time: "July 2020 – August 2020"
     university: "Technische Universität Berlin"
   -
-    degree: "PhD, Sociology of Organization, Innovation, and Entrepreneurship"
+    degree: "PhD, Organization Theory, Innovation, and Entrepreneurship"
     details: |
-        My PhD research was positioned at the intersection of sociology, organizational theory and entrepreneurship.
+        My PhD research was positioned at the intersection of organizational theory, innovation research, and entrepreneurship.
         It adressed the research strands on interorganizational tie formation of innovative new ventures,
         entrepreneurial ecosystems, and entrepreneurial team formation.
           - Submission of PhD thesis: December 2019
@@ -180,6 +191,29 @@ publications:
       link: "#"
       title: "Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation."
   papers:
+    - 
+      authors: Katharina Scheidgen, Anna Brattström
+      title: "Berlin is Hotter Than Silicon Valley! How Networking Temperature Shapes Entrepreneurs' Networking Across Social Contexts."
+      conference: Entrepreneurship Theory and Practice (2022)
+      link: https://journals.sagepub.com/doi/full/10.1177/10422587221134787
+      doi: 10.1177/1042258722113478
+    - 
+      authors: Isabell Stamm, Lena Schürmann, Katharina Scheidgen, Stefan Berwing, Arne Maibaum 
+      title: "Marktabhängigkeit und ihre Bedeutung für die Grenzziehungen von Solidarität" 
+      conference: "Zeitschrift für Soziologie, 51(4), 365-384 (2022)"
+      link: https://www.degruyter.com/document/doi/10.1515/zfsoz-2022-0019/html
+      doi: 10.1515/zfsoz-2022-0019      
+    - 
+      authors: Gorgi Krlev, Katharina Scheidgen, Franziska Günzel-Jensen, Miriam Wolf, Ali Gümüsay 
+      title: "Did COVID lockdowns harm entrepreneurship? Not exactly"
+      conference: "LSE Business Review (2022)"
+      link: "https://blogs.lse.ac.uk/businessreview/2022/02/15/did-covid-lockdowns-harm-entrepreneurship-not-exactly/"
+    - 
+      authors: Lena Schürmann, Isabell Stamm, Katharina Scheidgen
+      title: "Die Gegenwart der Krise als Erosion unternehmerischer Zukünfte." 
+      conference: "Arbeit 31.1-2 77-94 (2022)"
+      link: "https://www.degruyter.com/document/doi/10.1515/arbeit-2022-0005/html"
+      doi: "10.1515/arbeit-2022-0005"
     -
       authors: "Katharina Scheidgen, Michaela Hruskova"
       conference: "Robert Huggins, Fumi Kitagawa, Daniel Prokop, Christina Theodoraki and Piers Thompson (editors): Entrepreneurial Ecosystems in Cities and Regions: Emergence, Evolution, Future. Oxford University Press (forthcoming)"
@@ -246,4 +280,4 @@ sidebar:
   tagline: "Organization Researcher in Entrepreneurship"
   twitter: kathischeidgen
   websiteTitle: university website
-  website: "https://www.uni-goettingen.de/en/research/650386.html"
+  website: "https://uni-goettingen.de/en/649751.html"
