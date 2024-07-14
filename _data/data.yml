@@ -189,13 +189,30 @@ publications:
     -
       authors: "Katharina Scheidgen"
       conference: "PhD thesis"
-      link: "#"
+      link: "/assets/downloads/Scheidgen_2020_Einleitung_Dissertation.pdf"
       title: "Network Development in Silicon Valley and Berlin — The Impact of Entrepreneurial Ecosystems on Interorganizational Tie Formation."
   papers:
+    - authors: "Mohamed Farhoud, Trenton Alma Williams, Manuel Aires de Matos, Katharina Scheidgen, Kurian George, Muhammad Sufyan, Anas Alakkad"
+      title: Sustaining spontaneous venturing in response to the global refugee crisis
+      conference: Journal of Business Venturing Insights (2024)
+      link: https://www.sciencedirect.com/science/article/pii/S2352673424000313
+      doi: 10.1016/j.jbvi.2024.e00479
+    - 
+      authors: "Philip Roth, Katharina Scheidgen"
+      title: Local Cultures of Advice Tie Formation
+      conference: Journal of Organizational Sociology (2024)
+      link: "https://www.degruyter.com/document/doi/10.1515/joso-2023-0025/html"
+      doi: 10.1515/joso-2023-0025
+    -
+      authors: "Katharina Scheidgen, Michaela Hruskova"
+      conference: "Robert Huggins, Fumi Kitagawa, Daniel Prokop, Christina Theodoraki and Piers Thompson (editors): Entrepreneurial Ecosystems in Cities and Regions: Emergence, Evolution, Future; Oxford University Press (2024)"
+      title: "Demystifying Silicon Valley: Unequal entry thresholds between entrepreneurial ecosystems"
+      link: "https://books.google.de/books?hl=de&lr=&id=39P3EAAAQBAJ&oi=fnd&pg=PA259&ots=IKaF_B2CdX&sig=2Qgn0BK7Dzuk8W9JzXFFTjeRaUE#v=onepage&q&f=false"
+      download: "downloads/Scheidgen_Hruskova_2024_Demystifying Silicon Valley_Unequal entry thresholds between entrepreneurial ecosystems.pdf"
     - 
       authors: Katharina Scheidgen, Anna Brattström
       title: "Berlin is Hotter Than Silicon Valley! How Networking Temperature Shapes Entrepreneurs' Networking Across Social Contexts."
-      conference: Entrepreneurship Theory and Practice (2023)
+      conference: Entrepreneurship Theory and Practice, 47(6), 2233-2262 (2023)
       link: https://journals.sagepub.com/doi/full/10.1177/10422587221134787
       doi: 10.1177/1042258722113478
     - 
@@ -220,13 +237,7 @@ publications:
       title: "Die Gegenwart der Krise als Erosion unternehmerischer Zukünfte." 
       conference: "Arbeit 31.1-2 77-94 (2022)"
       link: "https://www.degruyter.com/document/doi/10.1515/arbeit-2022-0005/html"
-      doi: "10.1515/arbeit-2022-0005"
-    -
-      authors: "Katharina Scheidgen, Michaela Hruskova"
-      conference: "Robert Huggins, Fumi Kitagawa, Daniel Prokop, Christina Theodoraki and Piers Thompson (editors): Entrepreneurial Ecosystems in Cities and Regions: Emergence, Evolution, Future; Oxford University Press, 2024"
-      title: "Demystifying Silicon Valley: Unequal entry thresholds between entrepreneurial ecosystems"
-      link: "https://books.google.de/books?hl=de&lr=&id=39P3EAAAQBAJ&oi=fnd&pg=PA259&ots=IKaF_B2CdX&sig=2Qgn0BK7Dzuk8W9JzXFFTjeRaUE#v=onepage&q&f=false"
-      download: "downloads/Scheidgen_Hruskova_2024_Demystifying Silicon Valley_Unequal entry thresholds between entrepreneurial ecosystems.pdf"
+      doi: "10.1515/arbeit-2022-0005"   
     -
       authors: "Isabell Stamm, Katharina Scheidgen, Janina Sundermeier, Annekathrin Hoppy, Hannes Rothe, Michelle Christensen, Florian Conradi, Heike Pantelmann"
       conference: "Jürgen Beyer, Nina Baur (editors): Wirtschaft und soziale Ungleichheit (forthcoming)"
@@ -243,7 +254,7 @@ publications:
     -
       authors: "Katharina Scheidgen"
       conference: "Entrepreneurship and Regional Development, 2020"
-      title: "Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs"
+      title: "Degrees of Integration — How a Fragmented Entrepreneurial Ecosystem Promotes Different Types of Entrepreneurs, 33(1-2), 54-79 (2021)"
       link: "https://www.tandfonline.com/doi/full/10.1080/08985626.2020.1734263"
       doi: "10.1080/08985626.2020.1734263"
       download: "downloads/Scheidgen_2020_Degrees of integration_how a fragmented entrepreneurial ecosystem promotes different types of entrepreneurs.pdf"
